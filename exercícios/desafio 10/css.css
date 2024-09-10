@@ -1,0 +1,142 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@font-face {
+    font-family: 'android';
+    src: url(fontes/idroid.otf) format('opentype');
+    font-weight:normal;
+    font-style: normal;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #84E1AD;
+    width: 100%;
+    margin: 0px;
+
+}
+
+header{
+    height: 250px;
+    background-image: linear-gradient(to bottom, rgb(0, 212, 0), rgb(0, 87, 0));
+    padding: 10px;
+    margin: 0px;
+    width: 100%;
+}
+
+header>nav>a{
+    text-decoration: none;
+    margin-left: 10px;
+    text-align: justify;
+    color: white;
+    font-weight: bolder;
+}
+
+header>nav>a:hover{
+    background-color: #36b46f59;
+}
+
+header>h1{
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: 'Varela Round';
+    color: white;
+    font-weight: normal ;
+    text-shadow: 3px 2px 3px rgba(0, 0, 0, 0.377);
+}
+
+header>h2{
+    font-weight: 450;
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 1em;
+    width: 400px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.329);
+}
+
+main{
+    padding: 10px;
+    text-indent: 30px;
+    max-width: 860px;
+    width: 100%;
+    margin: auto;
+    margin-top: 0px;
+    background-color: white;
+    text-align: justify;
+    
+}
+
+main>section#conteudo>article>p{
+    font-size: 1.2em;
+}
+
+main>section#conteudo>article>h1{
+    font-family: 'android';
+    font-size: 2em;
+    color: #1D5F3B;
+}
+
+main>section#conteudo>article>h2{
+    font-family: 'android';
+    color: #1D5F3B;
+    background-color: #2e945c3a;
+}
+
+main>section#conteudo>article>div.imagem{
+    text-align: center;
+    
+}
+
+.destaque{
+    color: green;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+    color: green;
+}
+
+main>section#conteudo>article>p>a::after{
+    content: "🔗" ;
+    
+}
+main>section#conteudo>article>#videop{
+    background-color: #0f311f;
+}
+
+footer>#rodape{
+    padding: 10px;
+    margin: auto;
+    background-color: white;
+    max-width: 860px;
+    width: 100%;
+}
+
+footer>#rodape>h2{
+    margin: auto;
+    background-color: #2FA866;
+    text-align: justify;
+    color: white;
+    padding: 10px;
+    max-width: 790px;
+    width: 100%;
+    border-radius: 8px 8px 0px 0px;
+}
+footer>#rodape>main{
+    background-color: #C5EBD6;
+    margin: auto;
+    padding-top: 10px;
+    padding: 5px;
+    max-width: 800px;
+    width: 100%;
+    border-radius: 0px 0px 8px 8px;
+}
+
+footer>#rodape>main>ul{
+    text-decoration: underline;
+}
+

@@ -1,0 +1,38 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to left, #61687A 60%, #ADC055);
+
+}
+
+main {
+    background-color: white;
+    color: black;
+    width: 600px;
+    margin: auto;
+    border-radius: 12px;
+    padding: 2px;
+}
+
+
+img {
+    width: 400px;
+    margin: auto;
+}
+
+h1{
+    font-size: 2.4em;
+}
+
+h2{
+    font-size: 2em;
+    font-weight:bold;
+    font-style: italic;
+    
+}
+
+p {
+    text-decoration:underline;
+}

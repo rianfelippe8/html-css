@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #84E1AD;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 250px;
+    width: 100%;
+    background-image: linear-gradient(to bottom, rgb(0, 212, 0), rgb(0, 87, 0));
+    padding: 0;
+    margin: 0;
+}
+
+header nav a {
+    text-decoration: none;
+    margin-left: 10px;
+    text-align: justify;
+    color: white;
+    font-weight: bolder;
+}
+
+header nav a:hover {
+    background-color: #36b46f59;
+}
+
+header h1 {
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: 'Varela Round';
+    color: white;
+    font-weight: normal;
+    text-shadow: 3px 2px 3px rgba(0, 0, 0, 0.377);
+}
+
+header h2 {
+    font-weight: 450;
+    margin: auto;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 1em;
+    max-width: 100%;
+    width: 400px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.329);
+}
+
+main {
+    padding: 10px;
+    margin: auto;
+    background-color: white;
+    max-width: 100%;
+    width: 100%;
+    text-align: justify;
+}
+
+#conteudo article {
+    max-width: 860px;
+    margin: auto;
+    padding: 0 15px;
+}
+
+main section#conteudo article p {
+    font-size: 1.2em;
+}
+
+main section#conteudo article h1, 
+main section#conteudo article h2 {
+    font-family: 'android';
+    color: #1D5F3B;
+}
+
+main section#conteudo article h1 {
+    font-size: 2em;
+}
+
+main section#conteudo article h2 {
+    background-color: #2e945c3a;
+}
+
+main section#conteudo article .imagem {
+    text-align: center;
+}
+
+footer #rodape {
+    padding: 10px;
+    margin: auto;
+    background-color: white;
+    max-width: 860px;
+    width: 100%;
+}
+
+footer #rodape h2 {
+    margin: auto;
+    background-color: #2FA866;
+    text-align: justify;
+    color: white;
+    padding: 10px;
+    max-width: 100%;
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+
+footer #rodape main {
+    background-color: #C5EBD6;
+    margin: auto;
+    padding: 5px;
+    max-width: 100%;
+    width: 100%;
+    border-radius: 0 0 8px 8px;
+}
+
+footer #rodape main ul {
+    text-decoration: underline;
+}
