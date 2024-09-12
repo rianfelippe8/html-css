@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Imagem de Fundo</title>
+    <style>
+        body{
+            background-image: url('imagens/wallpaper002.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        div.quadrado{
+            border: 2px solid black;
+            border-radius: 10px;
+            background-color: lightgrey;
+            width: 300px;
+            height: 300px;
+            display: inline-block;
+        }
+
+        div#q1{
+            background-color: skyblue;
+            transition-duration: 0.3s;
+        }
+        
+        div#q2{
+            background-image: linear-gradient(to bottom, yellow, red);
+            transition-duration: 0.4s;
+        }
+
+        div#q3{
+            background-image: url('imagens/pattern003.png');
+            transition-duration: 1s;
+        }
+
+        div#q1:hover{
+            background-color: blue;
+            border-radius: 20px;
+        }
+        div#q2:hover{
+            border-radius: 50%;
+        }
+        div#q3:hover{
+            border-radius: 100px;
+        }
+
+        button{
+            padding: 10px;
+            display: block;
+            background-image: url(imagens/pattern002.png);
+            font-weight: bolder;
+            font-size: 1.5em;
+            color: rgb(255, 0, 0);
+        }
+
+        button:hover{
+            padding: 40px;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="quadrado" id="q1">
+
+    </div>
+    <div class="quadrado" id="q2">
+
+    </div>
+    <div class="quadrado" id="q3">
+
+    </div>
+ <button>Olá mundo</button>
+</body>
+</html>
